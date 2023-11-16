@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 /*---- ESTABLISH YOUR OWN TYPOGRAPHIC HIERARCHY WHICH SHOULD BE BASED ON YOUR FONT CHOICES ----*/
 h1 {font-size: 4rem; margin-bottom: .3em;}
-h2 {font-size: 2.75rem; margin: 1em 0; color: #62e6f7}
+h2 {font-size: 2.75rem; margin: 1em 0; color: #439ff6}
 h3 {font-size: 1.90rem; margin: 3em 0 1em 0}
 
 p {font-size: 1.25rem;
@@ -121,7 +121,7 @@ a:hover {
 }
   
 .background-colour a {
-  color: rgb(150, 230, 254);
+  color: #439ff6;
   text-decoration: none;}
 
 .background-colour a:hover {
@@ -173,6 +173,7 @@ nav a:hover {
   font-weight: bold;
   text-align: left;
   padding-right: 30vw;
+  color: #439ff6;
 }
 
 
