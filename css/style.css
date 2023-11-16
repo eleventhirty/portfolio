@@ -1,4 +1,7 @@
 /* ------------------ GLOBAL STYLING --------------------*/
+
+html {scroll-behavior: smooth;}
+
 body {
   font-family: sans-serif;
   font-style: normal;
@@ -231,14 +234,17 @@ footer .connections a:hover svg path {
         transition: all 0.2s ease-in-out;}
 
       
-/*--- VERSION TWO STYLING ---*/
+/*----------------VERSION TWO STYLING---------------------*/
 
 .biog {padding: 2em 0; 
   max-width: 900px;}
 
+  /*----------------CHANGE COLOUR TO SUIT YOUR DESIGN---------------------*/
 .biobackground {background: #000;
 color: #fff;
 }
+
+/*----------------ADJUST SIZE TO SUIT YOUR DESIGN---------------------*/
 .biobackground p {font-size: 1.6rem;}
 
 .bio {
@@ -250,6 +256,9 @@ color: #fff;
   align-items: top;}
 
 .side {margin-top: .45rem}
+
+
+/*----------------MEDIA QUERIES FOR SMALLER SCREENS THESE WILL NEED ADJUSTED DEPENDING ON YOUR DESIGN---------------------*/
   
 @media only screen and (max-width: 600px) {
   section {    
