@@ -10,8 +10,6 @@ section {
   max-width: 800px;
   margin: auto;}
 
-
-
 h1, h2, h3 {
   font-family: sans-serif;
   font-weight: 400;
@@ -174,6 +172,8 @@ nav a:hover {
   padding-right: 30vw;
 }
 
+
+
 /* ------------------- IMAGES -------------------- */
 img {
   display: block;
@@ -230,12 +230,32 @@ footer .connections a:hover svg path {
         fill:  #103254;
         transition: all 0.2s ease-in-out;}
 
-        
+      
+/*--- VERSION TWO STYLING ---*/
+
+.biog {padding: 2em 0; 
+  max-width: 900px;}
+
+.biobackground {background: #000;
+color: #fff;
+}
+.biobackground p {font-size: 1.6rem;}
+
+.bio {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-areas:
+  "side content";
+  align-items: top;}
+
+.side {margin-top: .45rem}
   
 @media only screen and (max-width: 600px) {
   section {    
     width: 90%;
     margin: auto;}
+    
 
 header {
       width: 90%;
@@ -247,10 +267,12 @@ header p {font-size: 1.25em;}
 
 .portfolio {grid-template-columns: repeat(2, minmax(150px, 1fr)); }
 
+.bio {display:block;}
+.side {padding: 2em 0;}
+.biog h1{text-align:center;} 
+
+
 }
 
-
-
-
-
+@media only screen and (max-width: 600px) {
 
